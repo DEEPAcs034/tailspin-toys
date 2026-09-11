@@ -10,6 +10,8 @@ Tailspin Toys is a crowdfunding platform for games with a developer theme. The p
 - **Vitest** — unit tests for the data layer and pure transforms.
 - **Playwright** — end-to-end tests run against the built static site.
 
+The homepage renders the catalog statically and provides client-side filters for one or more categories and a publisher. The filtering controls do not require a runtime API.
+
 The database is migrated and seeded automatically before `dev`/`build` (via the `predev`/`prebuild` npm scripts) and is written to the gitignored `tailspin.db` file.
 
 ## Using this template
